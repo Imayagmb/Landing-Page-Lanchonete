@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C&M mini.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>C&M</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">C<span>&</span>M L<span>anche</span>S</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Ínicio</a></li>
+                <li class="nav-item"><a href="#">Menu</a></li>
+                <li class="nav-item"><a href="#">Sobre</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="pagina1">
+            <div class="pagina1-text">
+                <h4 class="text-h4">Bem-Vindo a C&M Lanches</h4>
+                <h1 class="text-h1">Temperos Diferentes para Paladares Variados!</h1>
+                <p>Venha nos visitar! Estamos localizados na Estrada da água branca, em Bangu.
+                    Descubra o sabor único dos nossos temperos especiais e mergulhe em uma experiência culinária
+                    inigualável. Esperamos por você!</p>
+                <a href="#" class="pagina1-btn">Faça sua encomenda</a>
+            </div>
+            <div class="pagina1-img">
+                <img src="Pizza.png" alt="hamburguer">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menu = document.querySelector('.menu');
+        const NavMenu = document.querySelector('.nav-menu');
+
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('ativo');
+            NavMenu.classList.toggle('ativo');
+        })
+
+            </script>
+</body >
+
+</html>
