@@ -34,3 +34,5 @@ Projeto pessoal de uma landing page criada para fornecer informações sobre uma
 - **CSS3**
 
 ---
+
+**Acesse o projeto em:** [Landing Page Lanchonete](https://landing-page-lanchonete.vercel.app/#)
